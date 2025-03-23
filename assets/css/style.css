@@ -1,0 +1,35 @@
+/* style.css */
+
+/* J'importe mon fichier reset.css qui contient quelques regle css qui dicte au navigateur web comment se comporter */
+/* J'importe mon fichier font.css qui contient les regles css pour les polices */
+@import url('./reset.css');
+@import url('./fonts.css');
+
+/* Avec :root, je peu créer des variables que j'utilise alors partout dans mon CSS */
+:root {
+    --color-dark: #222222; /* Couleur foncé mais pas totalement noir */
+    --color-light: #f3eee8; /* Couleur clair un peu beige */
+    --color-tone: #ebc89e; /* Couleur ton qui vas beaucoup contraster */
+    --font-normal: 'font-normal', sans-serif; /* Police de caractère normal */
+    --font-bold: 'font-bold', sans-serif; /* Police de caractère plus fat, plus grosse, ont dis "bold" */
+}
+
+/* Base de mon css */
+body {
+    font-size: 16px;
+    color: var(--color-light);
+    background-color: var(--color-dark);
+    font-family: var(--font-normal);
+}
+
+#global-container {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    width: calc(100% - 120px);
+    max-width: 1200px;
+}
+
+/* A toi de styliser ton site internet grâce au class et au id */
+/* ... */

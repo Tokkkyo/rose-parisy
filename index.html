@@ -1,0 +1,73 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rose Parisy - Projet SMT 2025</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+<body>
+    <!--
+        <div> est une balise qui représente un bloc de mon site internet.
+        Dans ce cas, on lui donne l'id "global-container" pour pouvoir le cibler en CSS
+        et lui donner par exemple une largeur de 80% de la page, un fond beige et une marge.
+
+        On peu aussi lui donner un autre nom, "ma-super-class" par exemple, pour le cibler en CSS, peut importe.
+
+        On peu aussi lui donner une classe CSS pour lui donner des propriétés CSS.
+        Un id est unique sur tout le site internet alors qu'une classe "class" peu être utilisée plusieurs fois.
+    -->
+    <div id="global-container">
+
+        <!-- <nav> est une balise de Menu pour mon site internet -->
+        <nav>
+            <ul>
+                <!-- <li> est une balise qui représente un élément de liste -->
+                <!-- <a> est une balise qui représente un lien -->
+                <li class="nav-button"><a href="#">Accueil</a></li>
+                <li class="nav-button"><a href="#">Projets</a></li>
+                <li class="nav-button"><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+
+        <!-- <header> est une balise qui représente l'en-tête (le début) de la page ou l'en-tête d'une section -->
+        <header id="header">
+            <p>Ceci est mon haut de page</p>
+
+            <!-- <img> est une balise qui représente une image, je vais manipuler cette image grace au CSS -->
+            <img src="" alt="" class="header-image">
+        </header>
+
+        <!-- <section> est une balise qui représente une section générique de mon site internet, je peu en avoir plusieurs -->
+        <section id="ma-section-1" class="background-rose">
+            <h1>Titre de ma section en h1</h1>
+        </section>
+
+        <!-- Ma deuxième section -->
+        <section id="ma-section-2" class="background-vert">
+            <h2>Titre un peu plus petit car h2</h2>
+        </section>
+
+        <!-- Ma troisième section -->
+        <section id="ma-section-3" class="background-violet">
+            <h3>Titre un peu plus petit car h3</h3>
+
+            <p class="text-dark">Je donne à cette balise la class css "text-black" donc tout le texte qui est dans cette balise sera noir.</p>
+            <p class="text-light">Je donne à cette balise la class css "text-light" donc tout le texte qui est dans cette balise sera blanc.</p>
+
+        </section>
+
+        <!-- <footer> est une balise qui représente le pied (la fin) de la page -->
+        <footer id="footer">
+            <p>Mon bas de page</p>
+            <p>ici je peu mettre les liens obligatoire comme les mentions légales, politique de confidentialité, etc.</p>
+        </footer>
+
+        <!-- Une Div peut etre toute seul sur la page web, comme ceci. On lui donne la classe CSS "copyright" -->
+        <div class="copyright">&copy; Rose Parisy - 2025</div>
+
+    </div>
+    <script src="./assets/js/main.js"></script>
+</body>
+</html>

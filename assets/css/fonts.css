@@ -1,0 +1,10 @@
+/* fonts.css */
+@font-face {
+    font-family: font-normal;
+    src: url(./fonts/font-normal.woff2) format('woff2');
+  }
+  
+  @font-face {
+    font-family: font-bold;
+    src: url(./fonts/font-bold.woff2) format('woff2');
+  }
