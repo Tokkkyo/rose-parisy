@@ -27,6 +27,17 @@
 
 Ces addons vont rendre ton éditeur plus cool et t'aider à voir tes projets web en direct.
 
+---------------------------------------------------------------------------------------------------
+
+## Utiliser Live Preview, pour voir en direct les changement sur ton site internet
+
+1. Ouvre ton fichier HTML dans Visual Studio Code (ex. `index.html`).
+2. Clique sur l'icône "Live Preview" en haut à droite (un petit globe ou une loupe, selon la version).
+3. Une fenêtre s’ouvre dans l’éditeur ou dans ton navigateur pour voir ton site en direct.
+4. Modifie ton HTML ou CSS : les changements apparaissent instantly sans recharger la page !
+
+---------------------------------------------------------------------------------------------------
+
 ## Jeux pour apprendre le CSS
 
 - **Flexbox Froggy** : Pour apprendre le css Flexbox. [Jouer ici](https://flexboxfroggy.com/#fr)
